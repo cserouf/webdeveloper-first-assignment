@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    /* font-family: 'Work Sans', sans-serif; */
+}
+/* Header Banner CSS */
+.main-banner{
+    width: 1200px;
+    align-items:right;
+}
+.banner-img{
+    width: 1340px;
+    height: 600px
+}
+.banne-title{
+    position: absolute;
+    right: 150px;
+    margin-top: 160px;
+    margin-left: 750px;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: right;
+}
+.banner-desc{
+    position: absolute;
+    right: 150px;
+    margin-top: 350px;
+    margin-left: 750px;
+    text-align: right;
+    color: #FFFFFF;
+    font-weight: 200;
+    line-height: 23px;
+}
+
+.banner-btn{
+    position: absolute;
+    right: 150px;
+    margin-top: 450px;
+    font-weight: 600px;
+}
+.btn{
+    padding: 15px 18px;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/* About me CSS */
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    max-width: 1070px;
+    align-items: center;
+  
+}
+.about-img {
+    height: 571px;
+    margin-top: 90px;
+    width: 490px;
+    margin-left: 193px;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.about-me-title{
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 70px;   
+}
+.about-me-dsc{
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+.about-me-sign{
+    line-height: 28px;
+}
+
+/* MY Plan CSS */
+.my-plan{
+    justify-content: center;
+}
+.plan-title{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.service-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.img-service{
+    width: 70px;
+}
+
+/* Work Service CSS */
+
+.service-area{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.service-area-title{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 80px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.service-area-1{
+    margin-right: 10px;
+    background: #f0ebeb;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 24%;
+}
+.service-area-2{
+    margin-right: 10px;
+    background: #f0ebeb;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 24%;
+}
+.service-area-3{
+    margin-right: 10px;
+    background: #f0ebeb;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 24%; 
+}
+.service-area-4{
+    background: #f0ebeb;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 24%; 
+}
+.service-area-1 h1{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.service-area-2 h1{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.service-area-3 h1{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.service-area-4 h1{
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Call To Action CSS */
+
+
+.wrapper{
+    max-width: 950px;
+    margin: 10px auto;
+    
+}
+.call-to-action-inner {
+    background: url(imges/watch.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    height: 244px;
+}
+.call-to-action-inner::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(100deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    
+}
+.call-to-action-title{
+    z-index: 4;
+    position: relative;
+}
+.call-to-action-title p{
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+    padding-top: 45px;
+    margin-left: 45px;
+
+}
+.call-to-action button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: #005FAC;
+    font-weight: 800;
+    margin-left: 45px;
+}
+
+/* Footer CSS */
+
+.footer{
+    background: black;
+    display: flex;
+}
+.footer-title{
+    width: 400px;
+    height: 300px;
+    padding: 90px 90px;
+}
+.footer-title p{
+    color: #FFFFFF;
+}
+.footer-header{
+    margin-bottom: 10px;   
+}
+.footer-email{
+    margin-top: 20px;
+}
+.footer-mobile{
+    margin-top: 20px;
+}
+.footer-socila-icon{
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+.footer-img{
+    margin-right: 50px;
+    height: 10px;
+    width: 10px;
+
+}
+.footer-form{
+    position: absolute;
+    right: 250px;
+    margin-top: 120px;
+}
+.footer-form h3{
+    margin-bottom: 20px; 
+    font-size: 25px; 
+    color: white;"
+}
+.form-email{
+    border: 1px #FFFFFF;
+}
+.email{
+    padding:15px 65px 15px 5px; 
+    background-color: black;
+}
+.submit-btn{
+    margin-top: 20px; 
+    padding: 10px 30px; 
+    background-color:#529fe4; 
+    border-radius: 5px;"
+}
